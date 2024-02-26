@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .row{
+                display: flex;
+                justify-content: space-around;
+
+                align-items: center;
+                height: 100vh;
+
+                /* width:calc(100% - 200px); */
+                text-align: center;
+            }
+            .flag{
+                position: relative;
+            }
+            .rectangle {
+                width: 96px;
+                height: 120px;
+                display: inline-block;
+            }
+            
+            #blue-rectangle{
+                background:blue;
+            }
+            #white-rectangle{
+                background:white;
+            }
+            #red-rectangle{
+                background:red;
+            }
+
+            #white-rectangle2{
+                background:white;
+            }
+            #red-rectangle2{
+                width: 192px;
+                background:darkred;
+            }
+            .triangle{
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+                border-bottom: 32px solid white;
+                position: absolute;
+                transform: rotate(90deg);
+                top: 0px;
+                left: 100px;
+            }
+            #t1{
+                top: 20px;
+            }
+            #t2{
+                top: 44px;
+            }
+            #t3{
+                top: 68px;
+            }
+            #t4{
+                top: 92px;
+            }
+            #t5{
+                top: -4px;
+            }
+            body {background-color: powderblue;}
+            p {color: red;}
+        </style>
+        </head>
+<body>
+    <div class="row">
+        <div class="flag">
+            <div class="rectangle" id="blue-rectangle"></div>
+            <div class="rectangle" id="white-rectangle"></div>
+            <div class="rectangle" id="red-rectangle"></div>
+           
+            <p>France</p>
+            
+        </div>
+
+        <div class="flag">
+            <div class="rectangle" id="white-rectangle2"></div>
+            <div class="rectangle" id="red-rectangle2"></div>
+            <div>
+                <div class="triangle" id="t1"></div>
+                <div class="triangle" id="t2"></div>
+                <div class="triangle" id="t3"></div>
+                <div class="triangle" id="t4"></div>
+                <div class="triangle" id="t5"></div>
+            </div>
+            <div id="white-triangles"></div>
+
+
+            <!-- <img src="bahrain.png" alt="W3Schools.com">  -->
+            
+            <p>Bahrain</p>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+
+ 
+ 
